@@ -1,0 +1,2 @@
+language = "bash"
+run = "node nodejs.js && lua lua.lua && cd resources && cd StoryScript && python -m storyscript -i ../../storyscript.sts"
