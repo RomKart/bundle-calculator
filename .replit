@@ -1,1 +1,1 @@
-run = "node nodejs.js && lua lua.lua && cd resources && cd StoryScript && python -m storyscript -i ../../storyscript.sts && cd .. && cd .. && rustc rust.rs --out-dir bin && g++ cpp.cpp -o bin/cpp && g++ c.c -o bin/c && gdc d.d -o bin/d && cd bin && ./c && ./cpp && ./d && ./rust && cd .. && ocaml ocaml.ml && perl.pl && python python.py && java -jar resources/Neo.jar neo.neo"
+run = "python manager.py"
